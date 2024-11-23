@@ -13,13 +13,13 @@ const OrganizationDashboard = () => {
   const [notifications, setNotifications] = useState([]); // New: For real-time notifications
 
   // Connect to WebSocket server
-  const socket = io("http://localhost:5000"); // Update this with your backend's WebSocket URL
+  const socket = io("https://lifelink-backend-1sci.onrender.com/"); // Update this with your backend's WebSocket URL
 
   useEffect(() => {
     const fetchOrganizationData = async () => {
       try {
         const token = localStorage.getItem("token");
-        const response = await fetch("http://localhost:5000/profile", {
+        const response = await fetch("https://lifelink-backend-1sci.onrender.com//profile", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

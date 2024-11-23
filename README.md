@@ -1,70 +1,120 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LifeLink Frontend
 
-## Available Scripts
+This is the **frontend** application for the LifeLink project, built using **React.js**. The application is hosted at [LifeLink Frontend](https://lifelink-ten.vercel.app/).
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Dashboards**:
+  - Separate dashboards for donors, hospitals, and organizations.
+  - Display personalized data such as donation history, blood inventory, and more.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Real-Time Features**:
+  - Notifications and updates for requests and schedules.
+  
+- **Blood Requests**:
+  - Create, view, and manage blood requests.
+  - Allows hospitals to request blood and donors to respond.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design**:
+  - Fully optimized for mobile, tablet, and desktop devices.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**: Core framework for building the user interface.
+- **Tailwind CSS**: Styling for modern, responsive layouts.
+- **Framer Motion**: For animations and transitions.
+- **React Router**: To manage routing within the application.
+- **Lucide Icons**: For visually appealing icons.
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js installed on your system.
+- Yarn or npm as your package manager.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/your-username/lifelink-frontend.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd lifelink-frontend
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   Or, if using Yarn:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   yarn install
+   ```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Start the development server:
 
-### Analyzing the Bundle Size
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   Or, if using Yarn:
 
-### Making a Progressive Web App
+   ```bash
+   yarn start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+6. Open the app in your browser at `http://localhost:3000`.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This frontend is hosted on **Vercel**. To deploy changes:
 
-### `npm run build` fails to minify
+1. Push your changes to the GitHub repository.
+2. Vercel will automatically deploy the latest version of the `main` branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Structure
+
+```plaintext
+src/
+├── components/       # Reusable components (buttons, cards, etc.)
+├── pages/            # Individual pages (Dashboard, Profile, etc.)
+├── routes/           # Route definitions for the app
+├── styles/           # Custom styles and Tailwind configurations
+├── utils/            # Utility functions
+├── App.js            # Main application file
+├── index.js          # Entry point for React
+```
+
+
+```
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For queries or collaboration, contact:
+
+- **Developer**: Janakiraman K
+- **Email**: techie.jr21@gmail.com
+
+

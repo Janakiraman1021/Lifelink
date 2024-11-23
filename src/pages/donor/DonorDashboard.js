@@ -14,7 +14,7 @@ const DonorDashboard = () => {
     const fetchProfile = async () => {
       try {
         const token = localStorage.getItem("token"); // Get the token from localStorage
-        const response = await fetch("http://localhost:5000/profile", {
+        const response = await fetch("https://lifelink-backend-1sci.onrender.com//profile", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

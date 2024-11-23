@@ -14,7 +14,7 @@ const DonorSignup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/donor/signup', {
+      const response = await fetch('https://lifelink-backend-1sci.onrender.com//donor/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password, bloodGroup }),
