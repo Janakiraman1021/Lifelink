@@ -75,12 +75,6 @@ This is the **frontend** application for the LifeLink project, built using **Rea
 
 6. Open the app in your browser at `http://localhost:3000`.
 
-### Deployment
-
-This frontend is hosted on **Vercel**. To deploy changes:
-
-1. Push your changes to the GitHub repository.
-2. Vercel will automatically deploy the latest version of the `main` branch.
 
 ## Project Structure
 
