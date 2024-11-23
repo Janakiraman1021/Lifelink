@@ -13,7 +13,7 @@ const OrganizationSignup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://lifelink-backend-1sci.onrender.com//organization/signup', {
+      const response = await fetch('https://lifelink-backend-1sci.onrender.com/organization/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, organizationId, email, password }),

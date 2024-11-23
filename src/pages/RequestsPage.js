@@ -6,7 +6,7 @@ const RequestsPage = () => {
   useEffect(() => {
     const fetchRequests = async () => {
       try {
-        const response = await fetch("https://lifelink-backend-1sci.onrender.com//requests");
+        const response = await fetch("https://lifelink-backend-1sci.onrender.com/requests");
         const data = await response.json();
         setRequests(data); // Assuming the API returns an array of requests with donor info
       } catch (err) {
@@ -20,7 +20,7 @@ const RequestsPage = () => {
   const handleRequest = async (requestId) => {
     try {
       const token = localStorage.getItem("token");
-      const response = await fetch(`https://lifelink-backend-1sci.onrender.com//requests/${requestId}/assign`, {
+      const response = await fetch(`https://lifelink-backend-1sci.onrender.com/requests/${requestId}/assign`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

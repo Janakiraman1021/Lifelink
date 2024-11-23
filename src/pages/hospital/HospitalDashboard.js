@@ -18,7 +18,7 @@ const HospitalDashboard = () => {
     const fetchHospitalData = async () => {
       try {
         const token = localStorage.getItem("token");
-        const response = await fetch("https://lifelink-backend-1sci.onrender.com//profile", {
+        const response = await fetch("https://lifelink-backend-1sci.onrender.com/profile", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
