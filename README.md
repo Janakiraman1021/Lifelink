@@ -45,7 +45,7 @@ This is the **frontend** application for the LifeLink project, built using **Rea
 2. Navigate to the project directory:
 
    ```bash
-   cd lifelink-frontend
+   cd Lifelink
    ```
 
 3. Install dependencies:
@@ -96,7 +96,6 @@ src/
 ```
 
 
-```
 
 ## Contributing
 
