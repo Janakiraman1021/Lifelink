@@ -39,7 +39,7 @@ This is the **frontend** application for the LifeLink project, built using **Rea
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/lifelink-frontend.git
+   git clone https://github.com/Janakiraman1021/Lifelink.git
    ```
 
 2. Navigate to the project directory:
